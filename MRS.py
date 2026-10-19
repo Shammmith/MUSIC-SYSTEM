@@ -5,7 +5,7 @@ import googleapiclient.errors
 warnings.filterwarnings("ignore")
 
 # Define YouTube API setup
-API_KEY = 'AIzaSyDqpsc-uQoBDF9a265TA7QSuG7DVy_0zpg'  # Replace with your API key
+API_KEY = ''  # Replace with your API key
 youtube = googleapiclient.discovery.build('youtube', 'v3', developerKey=API_KEY)
 
 # Emotion-to-Attributes Mapping
